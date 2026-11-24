@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "tag": "v0.8.17",
-  "commit": "",
+  "tag": "v0.8.20",
+  "commit": "2a0000a",
   "key": "A4B2…DD1D",
   "apps": [
     {
@@ -26,8 +26,8 @@
       },
       "path": "apps/claude-code",
       "package": "dist/claude-code-0.8.17.app",
-      "sha256": "95b07d83cfcd2f8ced3b3136f6f0bccff3e2d5773bb4e4a1462d5e64c5da512a",
-      "sig": "ed25519:+XIGJNRDhvizIy/VPFSb4FeIFTXGVV0KTetttzWmzemVB/b6DlUv1cdEsQnLJfvEE2CZwsHI6fHI1CIeaH0TDQ=="
+      "sha256": "293ab7648c6be2f5a8bd8b736dc34f80b146e9d952c01deaa26bf4300518aecc",
+      "sig": "ed25519:OI6hygx0l5l2mX1cYQebdsYlt9Y98qCkBLl6jIzVoQhZxnxgWaCc0eGQSSZXfWgj5CGEO51CoipIHu5D5cgJCg=="
     },
     {
       "id": "home-assistant",
@@ -50,8 +50,8 @@
       },
       "path": "apps/home-assistant",
       "package": "dist/home-assistant-0.8.17.app",
-      "sha256": "ec8ff6665601f97239865ae57e727fcc264a96894c5c9c40ffb964327be7b211",
-      "sig": "ed25519:ZGjGNHE3rUlKZxUeKwe9HOzVdvwK9HahXwLMdQ9IPThXg1eqiSzyv+f8dE1gOpnp4HgdK4Us8Zluk5LFbSMQAw=="
+      "sha256": "d8bb1776d3b84e5b4954b123f7efe50a6c069d4f6ecfcde1f64f547df7158444",
+      "sig": "ed25519:+YgZSbTG9qN2IxWQ2ezuSE88SEkJfZDf2+LhhZKrSz9ADqODD5xpIdpQFumDCUtFQXTy9yNvpT1ohKYNllr5Dg=="
     },
     {
       "id": "phosphor",
@@ -70,8 +70,8 @@
       },
       "path": "looks/phosphor",
       "package": "dist/phosphor-1.0.0.app",
-      "sha256": "24c3c4ae4c6f7221eb3d91e79e1665b7e671d467c2080e0cc5f7c55ede605a38",
-      "sig": "ed25519:TB/T4EVy9nSj5QnzUJ/bjYIsyS4f1GlmKc4T71lQ0jCF4lD5/hi3RI1sXFmh8WqainIG8fRy6PKBib7YWE13Bw=="
+      "sha256": "c65ef84fd04eaf9b41b0904446e1a378b7490fffef4a54b277effb5406833f27",
+      "sig": "ed25519:dIWo2943YPC7sWgo3OwryaoUCYPv3g/zTQj+Jnc8P009wZZFP/e38FS3xlKCgOS2Ag/k8n6O5f5g9ZBV6Fi9Bg=="
     },
     {
       "id": "calendar",
@@ -92,8 +92,8 @@
       },
       "path": "apps/calendar",
       "package": "dist/calendar-1.1.0.app",
-      "sha256": "dccbf5ee19af5e86fdc32e8d6087077c9d3ab966c1badbb0c377267d7b50f741",
-      "sig": "ed25519:qCgG2VUE1wyvKNuGfwmnimYeBpu6gj3Iyu9KsKvg0eAmkLzMbrp0uXtaxjH9V7YdNZg5KyHvTQVmrBtOmJO7BQ=="
+      "sha256": "d2ccc56eaa60279bf3af1961856d9c0cf9d2befd6978ee89a4e9e1f4cadfb7e3",
+      "sig": "ed25519:tu932QIGXrwxbE2wJ6eXc4Gs9Ny/M23ObJkusHSMuWqSPsKUREUayQHjNB1dWMd73qsoH9VdFoV8RurydGF1Bw=="
     },
     {
       "id": "notifications",
@@ -116,8 +116,8 @@
       },
       "path": "apps/notifications",
       "package": "dist/notifications-1.0.0.app",
-      "sha256": "0e082dbcb1264c219e6e1560684c8b5160e58c5e2af15e70beba53cd9f942ac7",
-      "sig": "ed25519:ohZg3viN4QqQdEevcyL+n2E+tgYHKlDlwxdJy34fZPxbuMFb7v/H1+3nl/PqiS+B/RXMH9tpiZMxaBELx9QXAA=="
+      "sha256": "a1a8fd9c37362fa15c039d6829cf08c367385bb0f2c72cba7c5da58d1f715c02",
+      "sig": "ed25519:AMSn7VP8kqIOYXSxe7AfeHXzq22t4EG3CYH3rg2RA5175JYwsZSBJ3fUvsFCeMnUrZFWV2By8Dj8YPI3Ey5RCA=="
     },
     {
       "id": "pomodoro",
@@ -142,8 +142,8 @@
       },
       "path": "apps/pomodoro",
       "package": "dist/pomodoro-1.2.0.app",
-      "sha256": "95d8b3b2ddad8bacd75683347d4379d7a509ed9881746b8562acae0fd1ac12b7",
-      "sig": "ed25519:M6cqrO3qDa89vLlvIJ83CGuQmixvaIcn4KZwwbFNG3Grx2iPcGO5I/DAvfi0WLKD+wcOASF/vaeoTAG0oDzNCQ=="
+      "sha256": "faa32ae6fcb724537796ce6d0ce4a43f721af10b628b5bb57415f452eec2bbe1",
+      "sig": "ed25519:uz9jd8lOnGPGWFfm4eCfl5A7s2AGLXd9EVwRB0ExV0PrAo1iEC3DjRca368whmeziT5ropV2qjWl/tx42lfhDw=="
     },
     {
       "id": "stopwatch",
@@ -165,9 +165,9 @@
       },
       "path": "apps/stopwatch",
       "package": "dist/stopwatch-1.0.0.app",
-      "sha256": "94807065f3c57e426b882fdc3f6f23ea882f0547ba499102e2c3ead8ffd3802b",
-      "sig": "ed25519:/3Yq1QdoUTp7gEU4K9c74JDZblLR9ZcDpBBXxAgPmlZrVSjJnyMbyUFuCrSLmpUFyClEPByBdZhoR7fzAqDkDw=="
+      "sha256": "4ca902541f70c6ff9404e6773ccb808ad0b6056fe825f02ccd6d8679a854be55",
+      "sig": "ed25519:jjuM//Vj9C4jNCSOh1AeJCWyk/1xzf80YM84hkpsu0eu8fD/eG0l2bJ7Ol/FE4+8BQoXg3VdECxFT/LFdv6DBQ=="
     }
   ],
-  "sig": "ed25519:6iuVjyjiKFArjexlFBonfLEFHbNu1Y4udYDnLCvzjeiAhDZ5nzfTQBkGGhra7178UHX6KBMmXUK0APwxz8BIDw=="
+  "sig": "ed25519:fRVw94Wh8MXQxe/+W6vtMeDqncMj1YCdkWmYJH7Q+7Q4bwsmN4gaoeiSyT0X0CwftsJLlWtRKxB9+iFxJ5ntDA=="
 }
