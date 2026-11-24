@@ -1,0 +1,18 @@
+{
+  "id": "stopwatch",
+  "name": "Stopwatch",
+  "kind": "stick",
+  "version": "1.0.0",
+  "min_fw": "0.8.17",
+  "icon": "Sw",
+  "summary": "Laps on button A.",
+  "caps": [
+    "screen",
+    "buttons",
+    "timer"
+  ],
+  "touches": {
+    "Screen": "while the app is open",
+    "Buttons": "A lap · B stop"
+  }
+}

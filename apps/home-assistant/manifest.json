@@ -1,0 +1,19 @@
+{
+  "id": "home-assistant",
+  "name": "Home Assistant",
+  "kind": "connect",
+  "version": "0.8.17",
+  "min_fw": "0.8.17",
+  "icon": "HA",
+  "summary": "Buttons and sensors over MQTT on your LAN.",
+  "caps": [
+    "screen",
+    "buttons",
+    "mqtt"
+  ],
+  "touches": {
+    "Screen": "status text",
+    "Buttons": "A/B published to MQTT",
+    "Network": "MQTT broker on your LAN"
+  }
+}

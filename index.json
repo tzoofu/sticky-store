@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "tag": "v0.8.17",
+  "commit": "",
+  "key": "A4B2…DD1D",
+  "apps": [
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "kind": "connect",
+      "version": "0.8.17",
+      "min_fw": "0.8.17",
+      "size": 498,
+      "caps": [
+        "screen",
+        "buttons",
+        "mac"
+      ],
+      "summary": "See when Claude is thinking, waiting or done. A allows, B denies.",
+      "icon": "CC",
+      "touches": {
+        "Screen": "while Claude works",
+        "Buttons": "A allow · B deny",
+        "Mac": "~/.claude/settings.json",
+        "Network": "same Wi-Fi as the Mac"
+      },
+      "path": "apps/claude-code",
+      "package": "dist/claude-code-0.8.17.app",
+      "sha256": "95b07d83cfcd2f8ced3b3136f6f0bccff3e2d5773bb4e4a1462d5e64c5da512a",
+      "sig": "ed25519:+XIGJNRDhvizIy/VPFSb4FeIFTXGVV0KTetttzWmzemVB/b6DlUv1cdEsQnLJfvEE2CZwsHI6fHI1CIeaH0TDQ=="
+    },
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "kind": "connect",
+      "version": "0.8.17",
+      "min_fw": "0.8.17",
+      "size": 449,
+      "caps": [
+        "screen",
+        "buttons",
+        "mqtt"
+      ],
+      "summary": "Buttons and sensors over MQTT on your LAN.",
+      "icon": "HA",
+      "touches": {
+        "Screen": "status text",
+        "Buttons": "A/B published to MQTT",
+        "Network": "MQTT broker on your LAN"
+      },
+      "path": "apps/home-assistant",
+      "package": "dist/home-assistant-0.8.17.app",
+      "sha256": "ec8ff6665601f97239865ae57e727fcc264a96894c5c9c40ffb964327be7b211",
+      "sig": "ed25519:ZGjGNHE3rUlKZxUeKwe9HOzVdvwK9HahXwLMdQ9IPThXg1eqiSzyv+f8dE1gOpnp4HgdK4Us8Zluk5LFbSMQAw=="
+    },
+    {
+      "id": "phosphor",
+      "name": "Phosphor",
+      "kind": "look",
+      "version": "1.0.0",
+      "min_fw": "0.8.17",
+      "size": 337,
+      "caps": [
+        "screen"
+      ],
+      "summary": "Green CRT screens for the stick.",
+      "icon": "Ph",
+      "touches": {
+        "Screen": "all stick-drawn screens"
+      },
+      "path": "looks/phosphor",
+      "package": "dist/phosphor-1.0.0.app",
+      "sha256": "24c3c4ae4c6f7221eb3d91e79e1665b7e671d467c2080e0cc5f7c55ede605a38",
+      "sig": "ed25519:TB/T4EVy9nSj5QnzUJ/bjYIsyS4f1GlmKc4T71lQ0jCF4lD5/hi3RI1sXFmh8WqainIG8fRy6PKBib7YWE13Bw=="
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "kind": "phone",
+      "version": "1.1.0",
+      "min_fw": "0.8.17",
+      "size": 496,
+      "caps": [
+        "screen",
+        "android.calendar"
+      ],
+      "summary": "Your next event under the idle clock.",
+      "icon": "Ca",
+      "touches": {
+        "Screen": "idle clock only",
+        "Android": "calendar, asked on first run"
+      },
+      "path": "apps/calendar",
+      "package": "dist/calendar-1.1.0.app",
+      "sha256": "dccbf5ee19af5e86fdc32e8d6087077c9d3ab966c1badbb0c377267d7b50f741",
+      "sig": "ed25519:qCgG2VUE1wyvKNuGfwmnimYeBpu6gj3Iyu9KsKvg0eAmkLzMbrp0uXtaxjH9V7YdNZg5KyHvTQVmrBtOmJO7BQ=="
+    },
+    {
+      "id": "notifications",
+      "name": "Notifications",
+      "kind": "phone",
+      "version": "1.0.0",
+      "min_fw": "0.8.17",
+      "size": 524,
+      "caps": [
+        "screen",
+        "buttons",
+        "android.notifications"
+      ],
+      "summary": "Mirror chosen phone notifications to the stick.",
+      "icon": "Nt",
+      "touches": {
+        "Screen": "over the idle clock",
+        "Buttons": "A dismisses",
+        "Android": "notification access, asked on first run"
+      },
+      "path": "apps/notifications",
+      "package": "dist/notifications-1.0.0.app",
+      "sha256": "0e082dbcb1264c219e6e1560684c8b5160e58c5e2af15e70beba53cd9f942ac7",
+      "sig": "ed25519:ohZg3viN4QqQdEevcyL+n2E+tgYHKlDlwxdJy34fZPxbuMFb7v/H1+3nl/PqiS+B/RXMH9tpiZMxaBELx9QXAA=="
+    },
+    {
+      "id": "pomodoro",
+      "name": "Pomodoro",
+      "kind": "stick",
+      "version": "1.2.0",
+      "min_fw": "0.8.17",
+      "size": 1283,
+      "caps": [
+        "screen",
+        "buttons",
+        "timer",
+        "wake"
+      ],
+      "summary": "Focus rounds on the stick. A starts, B pauses.",
+      "icon": "Po",
+      "touches": {
+        "Screen": "while the app is open",
+        "Buttons": "A start/pause · B exit",
+        "Timer": "keeps running in the background",
+        "Backlight": "wakes when time is up"
+      },
+      "path": "apps/pomodoro",
+      "package": "dist/pomodoro-1.2.0.app",
+      "sha256": "95d8b3b2ddad8bacd75683347d4379d7a509ed9881746b8562acae0fd1ac12b7",
+      "sig": "ed25519:M6cqrO3qDa89vLlvIJ83CGuQmixvaIcn4KZwwbFNG3Grx2iPcGO5I/DAvfi0WLKD+wcOASF/vaeoTAG0oDzNCQ=="
+    },
+    {
+      "id": "stopwatch",
+      "name": "Stopwatch",
+      "kind": "stick",
+      "version": "1.0.0",
+      "min_fw": "0.8.17",
+      "size": 659,
+      "caps": [
+        "screen",
+        "buttons",
+        "timer"
+      ],
+      "summary": "Laps on button A.",
+      "icon": "Sw",
+      "touches": {
+        "Screen": "while the app is open",
+        "Buttons": "A lap · B stop"
+      },
+      "path": "apps/stopwatch",
+      "package": "dist/stopwatch-1.0.0.app",
+      "sha256": "94807065f3c57e426b882fdc3f6f23ea882f0547ba499102e2c3ead8ffd3802b",
+      "sig": "ed25519:/3Yq1QdoUTp7gEU4K9c74JDZblLR9ZcDpBBXxAgPmlZrVSjJnyMbyUFuCrSLmpUFyClEPByBdZhoR7fzAqDkDw=="
+    }
+  ],
+  "sig": "ed25519:6iuVjyjiKFArjexlFBonfLEFHbNu1Y4udYDnLCvzjeiAhDZ5nzfTQBkGGhra7178UHX6KBMmXUK0APwxz8BIDw=="
+}

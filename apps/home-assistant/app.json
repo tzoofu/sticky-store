@@ -1,0 +1,4 @@
+{
+  "feature": "home_assistant_mqtt",
+  "setup": "Settings → Integrations → Home Assistant"
+}

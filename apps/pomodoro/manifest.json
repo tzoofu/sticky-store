@@ -1,0 +1,21 @@
+{
+  "id": "pomodoro",
+  "name": "Pomodoro",
+  "kind": "stick",
+  "version": "1.2.0",
+  "min_fw": "0.8.17",
+  "icon": "Po",
+  "summary": "Focus rounds on the stick. A starts, B pauses.",
+  "caps": [
+    "screen",
+    "buttons",
+    "timer",
+    "wake"
+  ],
+  "touches": {
+    "Screen": "while the app is open",
+    "Buttons": "A start/pause · B exit",
+    "Timer": "keeps running in the background",
+    "Backlight": "wakes when time is up"
+  }
+}

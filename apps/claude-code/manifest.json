@@ -1,0 +1,20 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "kind": "connect",
+  "version": "0.8.17",
+  "min_fw": "0.8.17",
+  "icon": "CC",
+  "summary": "See when Claude is thinking, waiting or done. A allows, B denies.",
+  "caps": [
+    "screen",
+    "buttons",
+    "mac"
+  ],
+  "touches": {
+    "Screen": "while Claude works",
+    "Buttons": "A allow · B deny",
+    "Mac": "~/.claude/settings.json",
+    "Network": "same Wi-Fi as the Mac"
+  }
+}

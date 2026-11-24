@@ -1,0 +1,5 @@
+{
+  "feature": "claude_code_hooks",
+  "host": "host/sticky.py hooks install",
+  "ask_timeout_s": 60
+}

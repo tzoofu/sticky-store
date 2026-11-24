@@ -1,0 +1,43 @@
+{
+  "vars": {},
+  "start": "ready",
+  "states": {
+    "ready": {
+      "screen": {
+        "bg": "citrus",
+        "head": "STOPWATCH",
+        "big": "00:00.0",
+        "foot": "A START · B EXIT"
+      },
+      "on": {
+        "A": {
+          "go": "run"
+        },
+        "B": {
+          "exit": true
+        }
+      }
+    },
+    "run": {
+      "timer": {
+        "up": true
+      },
+      "screen": {
+        "bg": "citrus",
+        "head": "STOPWATCH",
+        "big": "{mm}:{ss}.{d}",
+        "laps": 3,
+        "foot": "A LAP · B STOP"
+      },
+      "on": {
+        "A": {
+          "lap": true
+        },
+        "B": {
+          "go": "ready",
+          "reset_timer": true
+        }
+      }
+    }
+  }
+}

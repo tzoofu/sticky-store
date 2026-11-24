@@ -1,0 +1,10 @@
+{
+  "feature": "notification_relay",
+  "android_permission": "BIND_NOTIFICATION_LISTENER_SERVICE",
+  "options": {
+    "mirror": [
+      "messages",
+      "phone"
+    ]
+  }
+}

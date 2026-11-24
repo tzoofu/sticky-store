@@ -1,0 +1,9 @@
+{
+  "feature": "calendar_idle",
+  "android_permission": "READ_CALENDAR",
+  "options": {
+    "start_min_before": 60,
+    "skip_all_day": true
+  },
+  "send": "next event title + start time, about once a minute"
+}

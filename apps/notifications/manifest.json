@@ -1,0 +1,19 @@
+{
+  "id": "notifications",
+  "name": "Notifications",
+  "kind": "phone",
+  "version": "1.0.0",
+  "min_fw": "0.8.17",
+  "icon": "Nt",
+  "summary": "Mirror chosen phone notifications to the stick.",
+  "caps": [
+    "screen",
+    "buttons",
+    "android.notifications"
+  ],
+  "touches": {
+    "Screen": "over the idle clock",
+    "Buttons": "A dismisses",
+    "Android": "notification access, asked on first run"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "calendar",
+  "name": "Calendar",
+  "kind": "phone",
+  "version": "1.1.0",
+  "min_fw": "0.8.17",
+  "icon": "Ca",
+  "summary": "Your next event under the idle clock.",
+  "caps": [
+    "screen",
+    "android.calendar"
+  ],
+  "touches": {
+    "Screen": "idle clock only",
+    "Android": "calendar, asked on first run"
+  }
+}

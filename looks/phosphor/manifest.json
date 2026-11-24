@@ -1,0 +1,15 @@
+{
+  "id": "phosphor",
+  "name": "Phosphor",
+  "kind": "look",
+  "version": "1.0.0",
+  "min_fw": "0.8.17",
+  "icon": "Ph",
+  "summary": "Green CRT screens for the stick.",
+  "caps": [
+    "screen"
+  ],
+  "touches": {
+    "Screen": "all stick-drawn screens"
+  }
+}

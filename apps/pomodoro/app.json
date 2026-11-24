@@ -1,0 +1,90 @@
+{
+  "vars": {
+    "focus_min": 25,
+    "break_min": 5,
+    "round": 1,
+    "rounds": 4
+  },
+  "start": "ready",
+  "states": {
+    "ready": {
+      "screen": {
+        "bg": "citrus",
+        "head": "POMODORO",
+        "big": "{focus_min}:00",
+        "foot": "A START · B EXIT"
+      },
+      "on": {
+        "A": {
+          "go": "focus"
+        },
+        "B": {
+          "exit": true
+        }
+      }
+    },
+    "focus": {
+      "timer": {
+        "min": "focus_min",
+        "then": "break",
+        "wake": true
+      },
+      "screen": {
+        "bg": "citrus",
+        "head": "FOCUS · {round} OF {rounds}",
+        "big": "{mm}:{ss}",
+        "bar": "progress",
+        "foot": "A PAUSE · B EXIT"
+      },
+      "on": {
+        "A": {
+          "go": "paused",
+          "hold_timer": true
+        },
+        "B": {
+          "exit": true
+        }
+      }
+    },
+    "break": {
+      "timer": {
+        "min": "break_min",
+        "then": "focus",
+        "wake": true,
+        "inc": "round"
+      },
+      "screen": {
+        "bg": "mint",
+        "head": "BREAK",
+        "big": "{mm}:{ss}",
+        "bar": "progress",
+        "foot": "A SKIP · B EXIT"
+      },
+      "on": {
+        "A": {
+          "go": "focus"
+        },
+        "B": {
+          "exit": true
+        }
+      }
+    },
+    "paused": {
+      "screen": {
+        "bg": "citrus",
+        "head": "PAUSED",
+        "big": "{mm}:{ss}",
+        "foot": "A RESUME · B EXIT"
+      },
+      "on": {
+        "A": {
+          "go": "focus",
+          "resume_timer": true
+        },
+        "B": {
+          "exit": true
+        }
+      }
+    }
+  }
+}
