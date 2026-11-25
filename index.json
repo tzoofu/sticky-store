@@ -2,8 +2,8 @@
   "format": 2,
   "tag": "v0.8.21",
   "commit": "",
-  "name": "Sticky Store",
-  "generated": "2026-11-25T20:22:08Z",
+  "name": "Sticky Official",
+  "generated": "2026-11-25T20:48:56Z",
   "key": "A4B2…DD1D",
   "apps": [
     {
@@ -28,8 +28,8 @@
       },
       "path": "apps/claude-code",
       "package": "dist/claude-code-0.8.17.app",
-      "sha256": "615ce28a04a88eec47f4985006946102177a5dfa862a37407d224ef2f808a90a",
-      "sig": "ed25519:D2lMDHcdrDGGbSQB71UhWznHhgqeAcl8YzX3mFagyBg3ioLvXOQzZ8JisqULKUscACp/FVcFzyCHccrm/10/DQ==",
+      "sha256": "3bdc7ad06f3f32dfc54cd640a7739359e05c38db391aeb19942cb076e9ee7842",
+      "sig": "ed25519:zd0us9m5GptAElI+25dxfuFrKN7vbcsq/x3ReJc4ESFtrSTtg58HRCsgPFABkdZ+MAatPIIwl5z0WWDpVq18CA==",
       "preview": "dist/claude-code-0.8.17.png",
       "preview_sha256": "a1861b3349c768e775cf64e8850a2ebd067847b5e4fa036fbf35e8884313752d"
     },
@@ -54,8 +54,8 @@
       },
       "path": "apps/home-assistant",
       "package": "dist/home-assistant-0.8.17.app",
-      "sha256": "2c12062a76bc4307007cdd48eea395781a894608bd4c972177216c2134626ca4",
-      "sig": "ed25519:C8XlfLMDEVW6WN3eOSrOW+Ra17eeQ4ux8+yzcJEJt5/EcSkXhv3I/viEQzzsFIwtA7Wc9NSENUv9JcexBiUDBw==",
+      "sha256": "4342716cdf3ba599c5293c640c01122e0241002c83957ead1961187741c14b8c",
+      "sig": "ed25519:no1AZGUrnYroJrENmh8qGMaC+E15aBJWF0JPidmlYktYa726BkC3tSKqW9oulMnw+UVRQ9kmOyujz0fbSB7JCQ==",
       "preview": "dist/home-assistant-0.8.17.png",
       "preview_sha256": "38400baf4610577763c9af923e292e8f3abcb4a7ad3123677867bf4081057d4f"
     },
@@ -76,8 +76,8 @@
       },
       "path": "looks/phosphor",
       "package": "dist/phosphor-1.0.0.app",
-      "sha256": "a1324159677f0ef743654cbdbf23bc3d824f314f84415273c4b30d47fbc92c11",
-      "sig": "ed25519:QwaYuIvJzk528apBLgp5GnVlTvE5//h2BTAnJnhPXC1RZc9OzJIOqvDKHQWN4syFz81ADUFj1kMPhdIAX9sYBA==",
+      "sha256": "a81a7a9205c5815fc113f2ed9a8ff5d085595c130e2ec32594a33b2e1612c8e0",
+      "sig": "ed25519:5fm3e6+LWpSdzj4T+TmgYgU0NuXKz3KOHTsOCBwu4YXkepSXgXd0J2BDAlMIQPLX/YQZyHgzEA9f22MziAuRAA==",
       "preview": "dist/phosphor-1.0.0.png",
       "preview_sha256": "bc0515b32c628cc8ba4018665611f83100a697c7cf1e6bd2bdbac66ce325805b"
     },
@@ -100,8 +100,8 @@
       },
       "path": "apps/calendar",
       "package": "dist/calendar-1.1.0.app",
-      "sha256": "19a72ba5cc85ab4e0e60546ec5cb65ba0b30cb4989266218b1110eb1f39c8185",
-      "sig": "ed25519:yXYikz6qphbrf4GGCQdu7BTVBI1HbUfdlExa0wZLscSmproXbyPXJgfSAtaQSX1YQALnz8C7HKqe6x/JXn5WCw==",
+      "sha256": "4ba1ddb249f8f175889558ff33ca527d33252d3b905117eb8d5b5054d572bd7b",
+      "sig": "ed25519:qSwpPNB3SFIKhoNgy9rhvXjjICl0UOXO+WNMb6MSTldXAucsYhXBbQQ0xcmnDGlsHDzS+HEtiRCy9m74eCt2AQ==",
       "preview": "dist/calendar-1.1.0.png",
       "preview_sha256": "9a82903f44f31d3314cf7571904d0e1a0b469c38a30a793fd32c26301ec61975"
     },
@@ -126,8 +126,8 @@
       },
       "path": "apps/notifications",
       "package": "dist/notifications-1.0.0.app",
-      "sha256": "c3cbbbb07114e6ec668f9c58bce454dcac3d7b310fc8c62eb0c54cec5316da90",
-      "sig": "ed25519:CCVUk3zxwIJZGa0STz8rZNCBYmDVxM+XYdLc4PSRatykDJCR/sgixUm0VKXxZh8ubj5umAFF6XgGkKvyPj/BBw==",
+      "sha256": "7b6017c15991e7d9bb93dc8fb9fcef5cf86a522cdb6e191d3f0873ea72fa60da",
+      "sig": "ed25519:19YK1jDsHGlp/Gr4TRAYfEDqW5CMhCd+jZNxHfbaubZRyIViqcwkVK09wP8GTxWAKB9CAQ4yFWhP6rPsMfFYCg==",
       "preview": "dist/notifications-1.0.0.png",
       "preview_sha256": "814c091f8742b2a8c2804f099face2f0c9d7ac4eea70e8f15cc3b36f71b18341"
     },
@@ -154,8 +154,8 @@
       },
       "path": "apps/pomodoro",
       "package": "dist/pomodoro-1.2.0.app",
-      "sha256": "50beab149f228774b7975dd4043666255fb89b050aa5e6635bf0fbcce9466b90",
-      "sig": "ed25519:pT99Qpk0DdjSFtLnYRdSYvt4/NLixJbTd5JRpAN4e+iDh/6XZEFQySyFWV5Xmt90hHiZTPekrNQabZBtCk42Bw==",
+      "sha256": "b659057402e487f337fbb276320875a6e144ea4ffa4c890b4b4466e92e0dd29b",
+      "sig": "ed25519:FWxMa7Gq3zWKE2PVG2/lTQhwQyQbHWfhA0AlQi2l+Ad5ZuvB49DHfdoORrNg8vNfa8ZT2wJ4dlrKm71L+YVPAg==",
       "screen": {
         "bg": "citrus",
         "head": "POMODORO",
@@ -183,8 +183,8 @@
       },
       "path": "apps/stopwatch",
       "package": "dist/stopwatch-1.0.0.app",
-      "sha256": "06ff41da83b5f5122382d2b3fd743fc5236c00d4cea2a35c65bcd9cf6c0f06b9",
-      "sig": "ed25519:5V7djfH/wu3KLoqBP2+kYWUSCV25RO0ptYp/BXWqnolJGK1Sih7mqgx6zn/oe9Acl6F3RtaId4kKpXSrIgprDg==",
+      "sha256": "bf265916623e9806fc326cde1e96705a5bfa9af6476b03b7570e6c6d57ad62d0",
+      "sig": "ed25519:PRBQYNIvYW8lEyEtnHZcI5NaDXHWcPLTfarO7d4xgI3HkaGNp9kMbtWukISRejKifuwryTHgnJGpmwPfCTFRDg==",
       "screen": {
         "bg": "citrus",
         "head": "STOPWATCH",
@@ -193,5 +193,5 @@
       }
     }
   ],
-  "sig": "ed25519:s1jIzwoN37sWRuSMdHf7uAu+SXWbDUlDNg7A0LZnNzD0KNRuUdUDJnhI4QYKMuaxCbENlmkH/2W3b2eIM136BA=="
+  "sig": "ed25519:qMyIPiIdGey7rRx5CybU0pTcMbHzSwF1feaN0EXC4QEsPxa4RPu2yoGiSHn961HkQSDnUuZfncjQSvewB+rVDw=="
 }
