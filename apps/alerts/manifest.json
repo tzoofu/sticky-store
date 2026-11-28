@@ -1,0 +1,22 @@
+{
+  "id": "alerts",
+  "name": "Alerts & Tasks",
+  "kind": "connect",
+  "version": "1.0.0",
+  "min_fw": "0.8.21",
+  "icon": "At",
+  "summary": "Priority alerts, a task list and a focus timer on your stick. A and B answer.",
+  "caps": [
+    "screen",
+    "buttons",
+    "mac",
+    "android.biometric"
+  ],
+  "touches": {
+    "Screen": "alerts, Today, Task and Focus",
+    "Buttons": "A approve · B reject",
+    "Mac": "the Sticky hub + ~/.claude/settings.json",
+    "Phone": "fingerprint or screen lock to approve",
+    "Network": "same Wi-Fi as the Mac"
+  }
+}

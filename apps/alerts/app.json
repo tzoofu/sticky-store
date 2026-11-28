@@ -1,0 +1,5 @@
+{
+  "feature": "priority_alerts",
+  "host": "host/sticky.py hub start",
+  "hooks": "host/sticky.py hooks install"
+}

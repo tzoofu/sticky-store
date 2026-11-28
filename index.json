@@ -1,11 +1,40 @@
 {
   "format": 2,
-  "tag": "v0.8.21",
-  "commit": "",
+  "tag": "v0.8.22",
+  "commit": "225fd1d",
   "name": "Sticky Official",
-  "generated": "2026-11-25T20:48:56Z",
+  "generated": "2026-11-28T11:32:15Z",
   "key": "A4B2…DD1D",
   "apps": [
+    {
+      "id": "alerts",
+      "name": "Alerts & Tasks",
+      "kind": "connect",
+      "version": "1.0.0",
+      "min_fw": "0.8.21",
+      "size": 621,
+      "caps": [
+        "screen",
+        "buttons",
+        "mac",
+        "android.biometric"
+      ],
+      "summary": "Priority alerts, a task list and a focus timer on your stick. A and B answer.",
+      "icon": "At",
+      "touches": {
+        "Screen": "alerts, Today, Task and Focus",
+        "Buttons": "A approve · B reject",
+        "Mac": "the Sticky hub + ~/.claude/settings.json",
+        "Phone": "fingerprint or screen lock to approve",
+        "Network": "same Wi-Fi as the Mac"
+      },
+      "path": "apps/alerts",
+      "package": "dist/alerts-1.0.0.app",
+      "sha256": "75ee3496dea1838d93727491d35b200ee53d685e21470238514577e694fe4313",
+      "sig": "ed25519:SR0wyc9UlOsBKhHPSMxPVulH152ONlwUnF8mX9T/wk8vUMJy3RxhSYBtf40lfw5NJem5e8kWLUTx59unI9TGBg==",
+      "preview": "dist/alerts-1.0.0.png",
+      "preview_sha256": "57ea54192d9cca564a6eb7abff051092b7bc37d633c92044a4e06ea1dbbc848a"
+    },
     {
       "id": "claude-code",
       "name": "Claude Code",
@@ -28,8 +57,8 @@
       },
       "path": "apps/claude-code",
       "package": "dist/claude-code-0.8.17.app",
-      "sha256": "3bdc7ad06f3f32dfc54cd640a7739359e05c38db391aeb19942cb076e9ee7842",
-      "sig": "ed25519:zd0us9m5GptAElI+25dxfuFrKN7vbcsq/x3ReJc4ESFtrSTtg58HRCsgPFABkdZ+MAatPIIwl5z0WWDpVq18CA==",
+      "sha256": "cb50eb1b3a8922fbd06bf05855572e9e366d172ed9a056d8f221525eb1205b27",
+      "sig": "ed25519:Nyy3uO4ag5Kdr0fS1zNAW3niOtRsOdKIDiOMiWnGzN+w3oeBATp0Z+OZxU4ZppUlIc6leeGY5/Buphx8KrqiDA==",
       "preview": "dist/claude-code-0.8.17.png",
       "preview_sha256": "a1861b3349c768e775cf64e8850a2ebd067847b5e4fa036fbf35e8884313752d"
     },
@@ -54,8 +83,8 @@
       },
       "path": "apps/home-assistant",
       "package": "dist/home-assistant-0.8.17.app",
-      "sha256": "4342716cdf3ba599c5293c640c01122e0241002c83957ead1961187741c14b8c",
-      "sig": "ed25519:no1AZGUrnYroJrENmh8qGMaC+E15aBJWF0JPidmlYktYa726BkC3tSKqW9oulMnw+UVRQ9kmOyujz0fbSB7JCQ==",
+      "sha256": "759d0ed40ad7629266923db659d6ee0b5e5a46bbe60caf0a7ea9c790d544fa22",
+      "sig": "ed25519:EgWIiVzkKjswaMZxrBkm/o/cgB9sr3xlthFq0PN8xUU5yB139q/pUxf0/nvFSsBeJLSWnHEypa8CYeZg4FxhDg==",
       "preview": "dist/home-assistant-0.8.17.png",
       "preview_sha256": "38400baf4610577763c9af923e292e8f3abcb4a7ad3123677867bf4081057d4f"
     },
@@ -76,8 +105,8 @@
       },
       "path": "looks/phosphor",
       "package": "dist/phosphor-1.0.0.app",
-      "sha256": "a81a7a9205c5815fc113f2ed9a8ff5d085595c130e2ec32594a33b2e1612c8e0",
-      "sig": "ed25519:5fm3e6+LWpSdzj4T+TmgYgU0NuXKz3KOHTsOCBwu4YXkepSXgXd0J2BDAlMIQPLX/YQZyHgzEA9f22MziAuRAA==",
+      "sha256": "ae7b91bcf38b28a0491f7c9ca2d5ec70cf90d9f3a95d6a88937915f8041662b8",
+      "sig": "ed25519:fVIPSsXpdQROWB9povm4k0ofkHGG0ImoWFyyoC5zbQnufS1b5tZhQY2Ahg8nMSnxjh33pCLXMSSxKrk2O4GDAg==",
       "preview": "dist/phosphor-1.0.0.png",
       "preview_sha256": "bc0515b32c628cc8ba4018665611f83100a697c7cf1e6bd2bdbac66ce325805b"
     },
@@ -100,8 +129,8 @@
       },
       "path": "apps/calendar",
       "package": "dist/calendar-1.1.0.app",
-      "sha256": "4ba1ddb249f8f175889558ff33ca527d33252d3b905117eb8d5b5054d572bd7b",
-      "sig": "ed25519:qSwpPNB3SFIKhoNgy9rhvXjjICl0UOXO+WNMb6MSTldXAucsYhXBbQQ0xcmnDGlsHDzS+HEtiRCy9m74eCt2AQ==",
+      "sha256": "9f170c1605395ec342b0b582036e336e01f2344f9e06a2baad5c9e0793a7818b",
+      "sig": "ed25519:2JjMDkIuHXaJaRVLEMkjj/LGzdqipd+haJtPskKwhf/emdPJUWk1tIg8fYhj/Ib4g8loy6RmTa3Egnx7UC5QDg==",
       "preview": "dist/calendar-1.1.0.png",
       "preview_sha256": "9a82903f44f31d3314cf7571904d0e1a0b469c38a30a793fd32c26301ec61975"
     },
@@ -126,8 +155,8 @@
       },
       "path": "apps/notifications",
       "package": "dist/notifications-1.0.0.app",
-      "sha256": "7b6017c15991e7d9bb93dc8fb9fcef5cf86a522cdb6e191d3f0873ea72fa60da",
-      "sig": "ed25519:19YK1jDsHGlp/Gr4TRAYfEDqW5CMhCd+jZNxHfbaubZRyIViqcwkVK09wP8GTxWAKB9CAQ4yFWhP6rPsMfFYCg==",
+      "sha256": "921b615d3e6c76ed2f6b7189da1403af22b5d5285e4ae2fca395072c4d19942b",
+      "sig": "ed25519:cGkuEN/hSXecDMCcSvIq8h4PEeWEEIIMtkyuZhjqAwdm83HWjcuABmXOgDKsK2FPw0SWqaoLk42KaogYy4sbAQ==",
       "preview": "dist/notifications-1.0.0.png",
       "preview_sha256": "814c091f8742b2a8c2804f099face2f0c9d7ac4eea70e8f15cc3b36f71b18341"
     },
@@ -154,8 +183,8 @@
       },
       "path": "apps/pomodoro",
       "package": "dist/pomodoro-1.2.0.app",
-      "sha256": "b659057402e487f337fbb276320875a6e144ea4ffa4c890b4b4466e92e0dd29b",
-      "sig": "ed25519:FWxMa7Gq3zWKE2PVG2/lTQhwQyQbHWfhA0AlQi2l+Ad5ZuvB49DHfdoORrNg8vNfa8ZT2wJ4dlrKm71L+YVPAg==",
+      "sha256": "536d87a2d943461c779094c292b525042cce5e120bfd6a861e391432364a075c",
+      "sig": "ed25519:Ion0VGKQaMeInTYVcecm6+mICuQBwF9JAzxjT8/HgCQAVti3EvpoTNzSAu+xMYW/oEX8P2yvq/k5xDglTFtKDw==",
       "screen": {
         "bg": "citrus",
         "head": "POMODORO",
@@ -183,8 +212,8 @@
       },
       "path": "apps/stopwatch",
       "package": "dist/stopwatch-1.0.0.app",
-      "sha256": "bf265916623e9806fc326cde1e96705a5bfa9af6476b03b7570e6c6d57ad62d0",
-      "sig": "ed25519:PRBQYNIvYW8lEyEtnHZcI5NaDXHWcPLTfarO7d4xgI3HkaGNp9kMbtWukISRejKifuwryTHgnJGpmwPfCTFRDg==",
+      "sha256": "09291d93dc6e5d8664915dfd3354c18bcde8389c4811d775f068aee0dd10f1b6",
+      "sig": "ed25519:RnULo3gnmeCsQAtzKcA3MAo86qZy9hVGpjlVtFLmoGHPaioNfeJ1HAKqN8YrvbkvjMERgWpx8XADTGxAwr4ADw==",
       "screen": {
         "bg": "citrus",
         "head": "STOPWATCH",
@@ -193,5 +222,5 @@
       }
     }
   ],
-  "sig": "ed25519:qMyIPiIdGey7rRx5CybU0pTcMbHzSwF1feaN0EXC4QEsPxa4RPu2yoGiSHn961HkQSDnUuZfncjQSvewB+rVDw=="
+  "sig": "ed25519:AbFVY1JHuJmcqoW/LtaHwUjnchBUvzcXy1Al15MGtTNLu6N0TjwWGsqPsw+HsTdBxDSLdRZutQfvTyqNl47cDA=="
 }
